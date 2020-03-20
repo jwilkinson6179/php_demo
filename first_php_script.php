@@ -10,7 +10,7 @@
     fwrite(STDOUT, "You're out.\n");
 
     fwrite(STDOUT, "What is your name (enter below):\n");
-    $userName = fread(STDIN, 80); // Read up to 80 characters or a newline
+    $userName = fread(STDIN, 50);
     fwrite(STDOUT, 'Hello '.$userName."!\n\n");
 
     fwrite(STDOUT, "Test file to read:\n"."\n".$_SERVER["argv"][1]."\n");
