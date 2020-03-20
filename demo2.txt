@@ -1,0 +1,3 @@
+This is the second file I am using to demo.  If you learn PHP, you
+could potentially do some neat stuff on the CLI to make your life
+lazi--err--easier.

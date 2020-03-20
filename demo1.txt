@@ -1,0 +1,2 @@
+This is a text file I created for the PHP demo.  My PHP script
+will read this document to you.
