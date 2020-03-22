@@ -9,12 +9,14 @@
     }
     fwrite(STDOUT, "You're out.\n");
 
+
     fwrite(STDOUT, "Test file to read:\n"."\n".$_SERVER["argv"][1]."\n");
 
     $fpath = fopen($_SERVER["argv"][1], "r");
     $fileStr = fread($fpath, filesize($_SERVER["argv"][1]));
     fclose($fpath);
     fwrite(STDOUT, $fileStr."\n\n");
+
 
     class Person {
         private $name;
